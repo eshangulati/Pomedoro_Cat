@@ -78,8 +78,8 @@ export default function Home() {
         <IoArrowBack />
       </button>
 
-      <div className="flex flex-col items-center justify-center px-4 md:-mt-64">
-        <div className="w-full h-full">
+      <div className="flex flex-col items-center justify-center px-4 md:-mt-32 lg:-mt-16">
+        <div className="w-full h-full scale-75 md:scale-100 lg:scale-125">
           <DotLottieReact
             src="/animations/working_cat.lottie"
             loop
@@ -89,8 +89,8 @@ export default function Home() {
         </div>
         
         {/* Timer Display with SVG Box */}
-        <div className="relative mb-6 md:mb-8 mt-4">
-          <div className="relative">
+        <div className="relative mb-6 md:mb-8 mt-4 lg:mt-8">
+          <div className="relative scale-75 md:scale-100 lg:scale-125">
             <svg width="223" height="95" viewBox="0 0 223 95" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="223" height="95" rx="47.5" fill="#FFFBFB"/>
               <foreignObject width="223" height="95">
