@@ -15,11 +15,11 @@ export default function Button({ onClick, variant, className = '' }: ButtonProps
       case 'pause':
         return '/Pause_button.svg';
       case 'reset':
-        return '/Reset_button.svg';
+        return '/reset_button.svg';
       case 'stop':
-        return '/Stop_button.svg';
+        return '/stop_button.svg';
       case 'play':
-        return '/Play_button.svg';
+        return '/play_button.svg';
       default:
         return '/Start_button.svg';
     }
