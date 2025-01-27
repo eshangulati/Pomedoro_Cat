@@ -70,12 +70,7 @@ export default function RestingPage() {
             src="/animations/resting_cat.lottie"
             loop
             autoplay
-            style={{ 
-              width: '100%', 
-              maxWidth: '1000px',
-              height: 'auto',
-              minHeight: '375px'
-            }}
+            style={{ width: '750px', height: '375px' }}
           />
         </div>
         
